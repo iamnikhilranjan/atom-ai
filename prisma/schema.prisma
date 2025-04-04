@@ -11,9 +11,28 @@ datasource db {
 }
 
 model User {
-     id String @id @default(cuid())
-     emailAddress String @unique
-     firstName String
-     lastName String
-     imageUrl String?
- }
+    id String @id @default(cuid())
+    emailAddress String @unique
+    firstName String
+    lastName String
+    imageUrl String?
+    accounts Account[]
+}
+
+model Account {
+    id     String @id @default(cuid())
+    userId String
+
+    binaryIndex Json?
+
+    token        String @unique
+    provider     String
+    emailAddress String
+    name         String
+
+    nextDeltaToken String?
+
+    user           User           @relation(fields: [userId], references: [id])
+}
+
+
