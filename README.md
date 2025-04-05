@@ -1,29 +1,66 @@
-# Create T3 App
+# Atom AI – Smart Email Composition & Management Platform
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Atom AI is a smart, AI-powered enhancement for the **GoFloww Atom Mail** platform. It enables intelligent email composition, automatic response generation, and real-time content refinement, all while adapting to individual communication styles and maintaining user privacy.
 
-## What's next? How do I make an app with this?
+## 🚀 Project Overview
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Atom AI significantly reduces the time spent on email communication by integrating OpenAI-powered capabilities directly into the Atom Mail platform. It intelligently analyzes historical conversations, understands context, and generates responses tailored to various tones—formal, informal, or technical—while learning the user's personal communication style.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+---
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## 🧠 Problem Statement
 
-## Learn More
+Email management remains a time-consuming task, often requiring meticulous attention to tone, accuracy, and context. Atom AI addresses this by:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- **Automatically composing emails** based on short user prompts.
+- **Generating smart replies** by analyzing historical threads.
+- **Refining email content** for tone, grammar, and clarity.
+- **Adapting to user-specific communication styles.**
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Key challenges include:
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- Ensuring **user privacy and data security**.
+- Maintaining **high accuracy** of AI-generated content.
+- Handling **diverse email contexts**.
+- Providing a **seamless UX** that integrates naturally into the workflow.
 
-## How do I deploy this?
+---
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## ✨ Features
+
+- ✉️ Smart Email Composer (powered by OpenAI)
+- 🔁 Context-aware Auto Response Generator
+- ✨ Tone and Content Refinement Tool
+- 📚 Historical Email Context Analysis
+- 🔐 User Authentication (via Clerk)
+- 💳 Stripe-based Premium Subscription System
+- 🌐 Responsive UI using Tailwind CSS + Next.js
+- 📦 Vector Search & Memory using Pinecone
+- ⚙️ Serverless Architecture via Neon + AWS SDK
+
+---
+
+## 🛠️ Technologies & Frameworks
+
+| Layer | Technologies |
+|--|--|
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS |
+| **Backend** | OpenAI API, Prisma ORM, PostgreSQL (Neon), AWS SDK |
+| **Authentication** | Clerk |
+| **Payments** | Stripe + Webhooks |
+| **AI & Memory** | OpenAI API, Pinecone Vector DB |
+| **Networking** | Axios, OpenAI Edge |
+| **Data Handling** | @tanstack/react-query |
+| **Styling Helpers** | clsx, tailwind-merge |
+
+---
+
+## 📦 Installation & Local Setup
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-org/atom-ai.git
+cd atom-ai
