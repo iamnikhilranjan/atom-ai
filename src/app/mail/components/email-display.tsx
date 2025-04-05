@@ -4,7 +4,7 @@ import { Letter } from 'react-letter';
 import { api, type RouterOutputs } from '@/trpc/react'
 import React from 'react'
 import { useLocalStorage } from 'usehooks-ts'
-import useThreads from '../use-thread';
+import useThreads from '../use-threads';
 import { cn } from '@/lib/utils';
 import { formatDistanceToNow } from 'date-fns';
 

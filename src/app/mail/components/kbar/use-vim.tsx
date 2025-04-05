@@ -10,7 +10,7 @@ import { atom, useAtom } from "jotai"
 import { toast } from "sonner"
 import { getQueryKey } from "@trpc/react-query"
 import useRefetch from "@/hooks/use-refetch"
-import useThreads from "../../use-thread"
+import useThreads from "../../use-threads"
 import { isSearchingAtom } from "../search-bar"
 
 export const visualModeAtom = atom(false)

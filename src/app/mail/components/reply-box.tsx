@@ -2,7 +2,7 @@
 import React from 'react'
 import EmailEditor from './email-editor'
 import { useThread } from '../use-thread'
-import useThreads from '../use-thread'
+import useThreads from '../use-threads'
 import { api, type RouterOutputs } from '@/trpc/react'
 import { toast } from 'sonner'
 

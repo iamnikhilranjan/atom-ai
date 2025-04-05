@@ -13,7 +13,7 @@ import { useAtom } from "jotai"
 import useVim from "./kbar/use-vim"
 import { useAutoAnimate } from "@formkit/auto-animate/react"
 import { useLocalStorage } from "usehooks-ts"
-import useThreads from "../use-thread"
+import useThreads from "../use-threads"
 import { isSearchingAtom } from "./search-bar"
 
 import { format } from "date-fns";

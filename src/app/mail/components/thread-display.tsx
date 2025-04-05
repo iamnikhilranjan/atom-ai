@@ -43,7 +43,7 @@ import { api, type RouterOutputs } from "@/trpc/react"
 import { addDays, addHours, format, nextSaturday } from "date-fns"
 import EmailDisplay from "./email-display"
 import { useThread } from "../use-thread";
-import useThreads from "../use-thread";
+import useThreads from "../use-threads";
 import { useAtom } from "jotai";
 import { isSearchingAtom, searchValueAtom } from "./search-bar";
 import SearchDisplay from "./search-display";

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Input } from '@/components/ui/input'
 import { Loader2, Search, X } from 'lucide-react'
 import React from 'react'
-import useThreads from '../use-thread'
+import useThreads from '../use-threads'
 import { atom, useAtom } from 'jotai'
 
 export const isSearchingAtom = atom(false)

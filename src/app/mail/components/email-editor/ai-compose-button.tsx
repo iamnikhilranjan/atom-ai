@@ -16,7 +16,7 @@ import { readStreamableValue } from "ai/rsc"
 import { Bot } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import useThreads from "../../use-thread"
+import useThreads from "../../use-threads"
 import { useThread } from "../../use-thread"
 import { turndown } from '@/lib/turndown'
 
