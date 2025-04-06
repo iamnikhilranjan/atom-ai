@@ -1,4 +1,5 @@
 
+'use client';
 
 const MailPage = dynamic(() => import("@/app/mail/index"), {
   loading: () => <div>Loading...</div>,
